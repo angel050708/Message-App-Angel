@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vscode/
+
+# secretos: contraseña de la base y firma de los tokens
+.env
+.env.*
+!.env.example
+
+# archivos subidos por los usuarios
+server/uploads/*
+!server/uploads/.gitkeep
